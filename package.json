@@ -1,0 +1,13 @@
+{
+    "name": "healthcare-api",
+    "version": "1.1.0",
+    "description": "REST API - Patients",
+    "dependencies": {
+        "restify": "^4.1.1",
+        "save": "^2.3.0",
+        "restify-plugins": "^1.6.0"
+    },
+    "author": "Pratiksha and Dipal",
+    "private": true,
+    "main": "index.js"
+}
