@@ -19,7 +19,7 @@ server
 
   .use(restify.plugins.queryParser());
 
-  server.listen(PORT, HOST, function () {
+  server.listen(PORT, function () {
     console.log('Server %s listening at %s', server.name, server.url)
     console.log('Endpoints:')
     console.log('%s/patients method: GET, POST', server.url)
