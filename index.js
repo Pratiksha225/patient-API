@@ -1,7 +1,5 @@
 var SERVER_NAME = 'healthcare-api'
-var PORT = 3234;
-var HOST = '127.0.0.1';
-
+var PORT = process.env.PORT;
 
 var restify = require('restify')
 

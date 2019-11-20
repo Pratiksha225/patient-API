@@ -1,25 +1,17 @@
 {
-  "name": "healthcare-api",
-  "version": "1.1.0",
-  "description": "REST API - Patients",
-  "dependencies": {
-    "restify": "^4.1.1",
-    "save": "^2.3.0",
-    "restify-plugins": "^1.6.0"
-  },
-  "author": "Pratiksha and Dipal",
-  "private": true,
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Pratiksha225/patient-API.git"
-  },
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/Pratiksha225/patient-API/issues"
-  },
-  "homepage": "https://github.com/Pratiksha225/patient-API#readme"
+    "name": "healthcare-api",
+    "version": "1.1.0",
+    "description": "REST API - Patients",
+    "dependencies": {
+        "restify": "^4.1.1",
+        "save": "^2.3.0",
+        "restify-plugins": "^1.6.0"
+    },
+    "author": "Pratiksha and Dipal",
+    "private": true,
+    "main": "index.js",
+    "scripts": 
+    {
+        "start": "node index.js"
+      }
 }
